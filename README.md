@@ -1,13 +1,17 @@
 # Todo List
 
 Things to do in the project:
-* Theme will be chosen
 * Todo will be created, deleted, updated
 * New to-do list creation feature will be added
 * A new to-do list creation page will be created
 * Once the information is filled in, the form will be approved
 * If everything is correct, the to-do list will be created and redirected to its home page
 
+Completed:
+* Theme has been chosen
+* Accessible structure created
+
+![Accessiblity Analyze Screenshot](./screenshots/first.png)
 
 
 
