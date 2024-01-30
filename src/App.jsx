@@ -2,6 +2,7 @@ import "./App.css";
 import Button from "./components/Button";
 import Navbar from "./components/Navbar";
 import TodoCard from "./components/TodoCard";
+
 function App() {
   return (
     <>
@@ -23,19 +24,35 @@ function App() {
 
             <dialog id="my_modal_4" className="modal">
               <div className="modal-box w-11/12 max-w-5xl">
-
-                {/* Content Area */}
                 <h3 className="font-bold text-lg">Create New Todo List</h3>
+
                 <form className="grid grid-row  mt-5 justify-items-center">
+                  <label className="form-control w-full max-w-xs mb-12">
+                    <div className="label">
+                      <span className="label-text">List Name</span>
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="Type here"
+                      className="input input-bordered w-full max-w-xs"
+                    />
+                  </label>
                   <label className="form-control w-full max-w-xs">
+                    <div className="label">
+                      <span className="label-text">New Todo</span>
+                    </div>
                     <input
                       type="text"
                       placeholder="Type here"
                       className="input input-bordered input-primary w-full max-w-xs mb-4"
                     />
+                    
+                    
 
                     <div className="flex justify-end">
-                      <a href="#" className="hover:text-white">Add Todo</a>
+                      <a href="#" className="hover:text-white">
+                        Add Todo
+                      </a>
                     </div>
                   </label>
                 </form>
